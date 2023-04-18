@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Dépôt HTML</title>
+</head>
+<body>
+    <div class="container">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Qu'est-ce qu'une Pull Request ?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Une Pull Request est une demande faite par un contributeur à un projet pour que le propriétaire de ce projet fusionne ses modifications ou ses ajouts au code existant. Cela permet au propriétaire de revoir les modifications avant de les intégrer au projet.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Qu'est-ce qu'un Fork ?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Un fork est une copie d'un dépôt existant sur GitHub qui vous permet de travailler sur le code sans affecter le dépôt original. Vous pouvez modifier le code dans votre fork, le pousser sur votre propre branche et créer une Pull Request pour proposer les modifications au dépôt original.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          À quoi servent les Issues ?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Les Issues sont des rapports de bogues, des demandes de fonctionnalités ou des tâches à accomplir associées à un dépôt GitHub. Ils permettent aux contributeurs de signaler les problèmes ou de demander des modifications et aux propriétaires du projet de les suivre.
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
